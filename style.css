@@ -1,0 +1,44 @@
+body{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+}
+
+button{
+    margin:10px;
+    padding:6px;
+    width:78px;
+    height: 50px;
+    font-size: 1.2rem;
+    background-color: #206d40;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.container{
+    text-align: center;
+}
+button:hover{
+    background-color: white;
+    color: #206d40;
+    cursor: pointer;
+}
+
+h1{
+    font-size:10rem;
+}
+
+input{
+    margin-bottom: 20px;
+    width:290px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
